@@ -9,3 +9,22 @@ Install the Kaggle API if you haven't already:
 
 `pip install kagglehub`
 
+To use kagglehub from your terminal, follow these steps:
+
+Open your terminal.
+Run Python in the terminal:
+
+`
+python `
+
+In the Python interactive shell, run the following:
+
+`import kagglehub`
+
+# Download the dataset
+`path = kagglehub.dataset_download("snehilsanyal/weapon-detection-test")`
+
+# Print the path where the dataset is saved
+print("Path to dataset files:", path)
+
+This will download the dataset to your machine, and the path where it's saved will be printed.
