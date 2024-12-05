@@ -27,6 +27,6 @@ Download the dataset
 
 Print the path where the dataset is saved
 
-``print("Path to dataset files:", path)`
+`print("Path to dataset files:", path)`
 
 This will download the dataset to your machine, and the path where it's saved will be printed.
