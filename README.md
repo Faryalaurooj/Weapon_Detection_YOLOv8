@@ -6,5 +6,6 @@ To download the dataset from Kaggle using your terminal, You can use kagglehub t
 Install the Kaggle API if you haven't already:
 
 `pip install kaggle`
+
 `pip install kagglehub`
 
