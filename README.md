@@ -21,10 +21,12 @@ In the Python interactive shell, run the following:
 
 `import kagglehub`
 
-# Download the dataset
+Download the dataset
+
 `path = kagglehub.dataset_download("snehilsanyal/weapon-detection-test")`
 
-# Print the path where the dataset is saved
-print("Path to dataset files:", path)
+Print the path where the dataset is saved
+
+``print("Path to dataset files:", path)`
 
 This will download the dataset to your machine, and the path where it's saved will be printed.
