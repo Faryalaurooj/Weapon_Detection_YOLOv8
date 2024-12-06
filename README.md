@@ -29,14 +29,14 @@ git clone https://github.com/Faryalaurooj/Weapon_Detection_YOLOv8.git
 
 2. **Installation of dependencies:**
 3. create new environment
+   
 ```
-conda create -n gun_detection_robo```
-
+conda create -n gun_detection_robo
 ```
-conda activate gun_detection_robo```
-
+conda activate gun_detection_robo
 ```
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 # Testing
 
