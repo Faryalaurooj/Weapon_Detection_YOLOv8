@@ -30,3 +30,19 @@ Print the path where the dataset is saved
 `print("Path to dataset files:", path)`
 
 This will download the dataset to your machine, and the path where it's saved will be printed.
+
+# Setting 
+
+Create a new environment (replace yolo_weapon_detection with your preferred environment name):
+
+`conda create --name yolo_weapon_detection python=3.10`
+
+Activate the new environment:
+
+`conda activate yolo_weapon_detection`
+
+Install YOLOv8: You will need to install the ultralytics package which provides the YOLOv8 model.
+
+`pip install ultralytics`
+
+# Training
