@@ -24,7 +24,7 @@ https://universe.roboflow.com/joao-assalim-xmovq/weapon-2/dataset/2
 1. **Repository Cloning:**
 
 ```
-git clone https://github.com/JoaoAssalim/Weapons-and-Knives-Detector-with-YOLOv8.git
+git clone https://github.com/Faryalaurooj/Weapon_Detection_YOLOv8.git
 ```
 
 2. **Installation of dependencies:**
@@ -33,21 +33,4 @@ git clone https://github.com/JoaoAssalim/Weapons-and-Knives-Detector-with-YOLOv8
 pip install -r requirements.txt
 ```
 
-3. **System Execution:**
 
-```
-python detecting-images.py
-```
-
-
-## Contributions and Problems
-
-Contributions are welcome! If you encounter issues or have suggestions for improvement, please open an issue in this repository.
-
-## Academic Notes
-
-This project is part of academic research in the area of ​​computer security. The results obtained and performance analyzes are documented in detail in the scientific article that will be made available in the future.
-
-## License
-
-This project is distributed under the [MIT] license (LICENSE.md). See the LICENSE.md file for details.
