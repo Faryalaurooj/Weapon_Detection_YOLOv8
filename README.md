@@ -37,16 +37,20 @@ pip install -r requirements.txt
 
 To perform inference on all the images in a folder using YOLOv8 and your trained model (best.pt), you can use the source argument with the folder path. YOLOv8 will automatically process all the images in that folder.
 ```
-	yolo detect predict model=best.pt source=path_to_test_folder
+yolo detect predict model=best.pt source=path_to_test_folder
 ```
+```
+yolo detect predict model=best.pt source=/home/faryal/Downloads/Weapons-and-Knives-Detector-with-YOLOv8/test/images/
 
+```
 Command for testing on a video:
 ```
-	yolo detect predict model=best.pt source=path_to_video.mp4
+yolo detect predict model=best.pt source=path_to_video.mp4
 ```
-	yolo detect predict model=best.pt source=gun2.mp4
- ```
+For example if you have downloaded the video gun2.mp4 then run this command
+
 ```
-	yolo detect predict model=best.pt source=./test_videos/gun3.mp4
+yolo detect predict model=best.pt source=./test_videos/gun2.mp4
 ```
+
 
