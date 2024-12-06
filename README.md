@@ -64,10 +64,14 @@ Install Dependencies:
 
 You'll need yt-dlp (for fetching the YouTube stream) and opencv-python (for video processing). You can install them using pip:
 
-```pip install yt-dlp opencv-python```
+```
+pip install yt-dlp opencv-python
+```
 
 Then run the code file yolo_youtube_inference.py, you can run it as follows:
 
-```python3 yolo_youtube_inference.py```
+```
+python3 yolo_youtube_inference.py
+```
 
 
