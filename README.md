@@ -68,6 +68,6 @@ You'll need yt-dlp (for fetching the YouTube stream) and opencv-python (for vide
 
 Then run the code file yolo_youtube_inference.py, you can run it as follows:
 
-```python yolo_youtube_inference.py```
+```python3 yolo_youtube_inference.py```
 
 
