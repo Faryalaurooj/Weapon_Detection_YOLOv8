@@ -58,17 +58,15 @@ For example if you have downloaded the video gun2.mp4 then run this command
 ```
 yolo detect predict model=best.pt source=./test_videos/gun2.mp4
 ```
-IF you want to perfrom weapon detection directly on youtube videos without downloading them , them insatll a dependency
-
-Install Dependencies:
-
-You'll need yt-dlp (for fetching the YouTube stream) and opencv-python (for video processing). You can install them using pip:
+If you want to perfrom weapon detection directly on youtube videos without downloading them , them insatll a dependency, You'll need yt-dlp (for fetching the YouTube stream) and opencv-python (for video processing). You can install them using pip:
 
 ```
 pip install yt-dlp opencv-python
 ```
 
+
 Then run the code file yolo_youtube_inference.py, you can run it as follows:
+
 
 ```
 python3 yolo_youtube_inference.py
