@@ -1,72 +1,53 @@
-# Weapon_Detection_YOLOv8
-In this repo we will perfrom weapon detection on videos with the help of YOLOv8 by training in onto Weapon Detection Dataset downloaded from kaggle 
+# Weapon and Knievs Detection System
 
-# Downloading Dataset
-To download the dataset from Kaggle using your terminal, You can use kagglehub to download datasets, follow these steps:
-Install the Kaggle API if you haven't already:
+This repository contains the source code and resources related to the academic weapon detection project, developed as part of research in the area of ​​computer security.
 
-`pip install kaggle`
+## Overview
 
-`pip install kagglehub`
+The main objective of this project is to design and implement an advanced system for the autonomous detection of firearms and knives. Using the YOLOv8 (You Only Look Once) framework and transfer learning techniques, we seek to improve security effectiveness through continuous, real-time surveillance.
 
-To use kagglehub from your terminal, follow these steps:
+## Key Features
 
-Open your terminal.
-Run Python in the terminal:
+- **YOLOv8 Framework:** One implementation uses YOLOv8, known for its efficiency in real-time object detection.
+  
+- **Transfer Learning:** Transfer learning techniques are employed to adapt the model to a specific context and improve accuracy in weapon detection.
 
-`
-python `
+- **Integration with IP Cameras:** The system is designed for easy integration with IP cameras, allowing for real-time surveillance and immediate notifications.
 
-In the Python interactive shell, run the following:
 
-`import kagglehub`
+## Dataset
 
-Download the dataset
+https://universe.roboflow.com/joao-assalim-xmovq/weapon-2/dataset/2
 
-`path = kagglehub.dataset_download("snehilsanyal/weapon-detection-test")`
+## How to use
 
-Print the path where the dataset is saved
+1. **Repository Cloning:**
 
-`print("Path to dataset files:", path)`
+```
+git clone https://github.com/JoaoAssalim/Weapons-and-Knives-Detector-with-YOLOv8.git
+```
 
-This will download the dataset to your machine, and the path where it's saved will be printed.
+2. **Installation of dependencies:**
 
-Dataset is : https://universe.roboflow.com/joao-assalim-xmovq/weapon-2/dataset/2
-
-# How to use
-Repository Cloning:
-
-git clone https://github.com/Faryalaurooj/Weapon_Detection_YOLOv8.gt
-
-Create a new environment (replace yolo_weapon_detection with your preferred environment name):
-
-`conda create --name gun_detection_robo `
-
-Activate the new environment:
-
-`conda activate yolo_weapon_detection`
-
-Installation of dependencies:
-
+```
 pip install -r requirements.txt
+```
+
+3. **System Execution:**
+
+```
+python detecting-images.py
+```
 
 
-# Testing
-Place best.pt file of pre-trained model in the main folder where you have opened your terminal and then run this command to run prediction on one image:
+## Contributions and Problems
 
-`yolo detect predict model=best.pt source=test_image.jpg --img-size 640 --save-txt --save-conf --device cuda`
+Contributions are welcome! If you encounter issues or have suggestions for improvement, please open an issue in this repository.
 
-To perform inference on all the images in a folder using YOLOv8 and your trained model (best.pt), you can use the source argument with the folder path. YOLOv8 will automatically process all the images in that folder.
+## Academic Notes
 
-`yolo detect predict model=best.pt source=path_to_test_folder`
+This project is part of academic research in the area of ​​computer security. The results obtained and performance analyzes are documented in detail in the scientific article that will be made available in the future.
 
-in my case i wrote it like this 
+## License
 
-` yolo detect predict model=best.pt source=/home/faryal/Downloads/Weapons-and-Knives-Detector-with-YOLOv8/test/images/`
-
-To perform object detection on a video using YOLOv8 with your trained model (best.pt), you can use the yolo detect predict command in a similar way as for images, but instead of specifying an image file or folder, you specify the path to the video file.
-Command for testing on a video:
-
-`yolo detect predict model=best.pt source=path_to_video.mp4`
-
-
+This project is distributed under the [MIT] license (LICENSE.md). See the LICENSE.md file for details.
