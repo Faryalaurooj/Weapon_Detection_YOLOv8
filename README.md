@@ -19,6 +19,13 @@ The main objective of this project is to design and implement an advanced system
 
 https://universe.roboflow.com/joao-assalim-xmovq/weapon-2/dataset/2
 
+
+Train Set 3839  Images
+Valid Set       Images
+Test Set 259    Images
+
+
+
 ## How to use
 
 1. **Repository Cloning:**
