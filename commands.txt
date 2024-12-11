@@ -1,3 +1,5 @@
+conda activate gun_detection_robo
+
 To perform inference on all the images in a folder using YOLOv8 and your trained model (best.pt), you can use the source argument with the folder path. YOLOv8 will automatically process all the images in that folder.
 
 Here's the command:
