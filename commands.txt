@@ -9,3 +9,4 @@ yolo detect predict model=best.pt source=path_to_test_folder
 Command for testing on a video:
 
 yolo detect predict model=best.pt source=path_to_video.mp4
+yolo detect predict model=best.pt source=./test_videos/gun3.mp4
